@@ -1,0 +1,36 @@
+name: Generate Snake Game
+
+on:
+  # 每天自动运行一次
+  schedule:
+    - cron: "0 0 * * *"
+  # 手动触发工作流
+  workflow_dispatch:
+  # 每次提交代码时触发
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      # 检出你的仓库代码
+      - name: Checkout your repository
+        uses: actions/checkout@v3
+
+      # 使用 Platane/snk 的生成工具
+      - name: Generate snake game from contributions
+        uses: Platane/snk@v2
+        with:
+          github_user_name: hahahahaha66 # 替换为你的 GitHub 用户名
+          output: dist/github-contribution-grid-snake.svg
+
+      # 将生成的 SVG 文件上传到你的仓库
+      - name: Commit and push Snake SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/github-contribution-grid-snake.svg
+          git commit -m "Update Snake Game Contribution Grid" || exit 0
+          git push
