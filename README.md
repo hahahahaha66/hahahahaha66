@@ -14,3 +14,12 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/SIMple-lives/SIMple-lives/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 </div>
+
+<div align="center">
+  <a href="https://github.com/hahahahaha66"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github"></a>
+  <a href="https://leetcode.cn/u/upbeat-7ehmannikl/"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=flat-square&logo=leetcode"></a>
+
+ 
+</div>  
+
+---
