@@ -4,9 +4,7 @@
 
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SIMple-lives/SIMple-lives/output/github-contribution-grid-snake.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SIMple-lives/SIMple-lives/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/SIMple-lives/SIMple-lives/output/github-contribution-grid-snake-dark.svg" />
+  ![](https://raw.githubusercontent.com/hahahahaha66/hahahahaha66/refs/heads/output/github-contribution-grid-snake-dark.svg)
 </picture>
 </div>
 
