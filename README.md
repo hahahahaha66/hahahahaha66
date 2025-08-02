@@ -2,7 +2,7 @@
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=hahahahaha66&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-![](https://raw.githubusercontent.com/hahahahaha66/hahahahaha66/refs/heads/output/github-contribution-grid-snake-dark.svg)
+![](https://raw.githubusercontent.com/hahahahaha66/hahahahaha66/refs/heads/output/github-contribution-grid-snake.svg)
 
 <div align="center">
   <a href="https://github.com/hahahahaha66"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github"></a>
